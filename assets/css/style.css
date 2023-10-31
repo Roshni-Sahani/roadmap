@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    /* font-size  */
+    --fs-xsm: 18px;
+    --fs-sm: 28px;
+    --fs-md: 60px;
+    --fs-lg: 70px;
+    --fs-xl: 50px;
+    --fs-xxl: 24px;
+    --fs-2xl: 16px;
+    /* colors */
+    --bg-green: #9acc44;
+    --bs-white: #fff;
+    /* font-family */
+    --ff-cherry: 'Cherry Bomb One';
+    --ff-Balsamiq: 'Balsamiq Sans';
+}
+
+.ff-cherry {
+    font-family: var(--ff-cherry);
+}
+
+.ff-Balsamiq {
+    font-family: var(--ff-Balsamiq);
+}
+
+.fs-18 {
+    font-size: var(--fs-xsm);
+}
+
+.fs-28 {
+    font-size: var(--fs-sm);
+}
+
+.fs-60 {
+    font-size: var(--fs-md);
+}
+
+.fs-70 {
+    font-size: var(--fs-lg);
+}
+
+.fs-50 {
+    font-size: var(--fs-xl);
+}
+
+.fs-24 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-16 {
+    font-size: var(--fs-2xl);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bs-white {
+    color: var(--bs-white);
+}
+
+.lh-103 {
+    line-height: 103.164%;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+.my-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.max-width-655 {
+    max-width: 655px;
+}
+
+.cards {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    transition: 300ms all linear;
+}
+
+.opcity-0-3 {
+    opacity: 0.3;
+}
+
+.text-shadow {
+    text-shadow: 1px 4px 0px #5BA72B;
+}
+
+.cards:hover {
+    background: #5BA72B;
+    transition: 300ms all linear;
+}
+
+.cards:hover svg path {
+    opacity: 1;
+}
+
+.pos-abs {
+    position: absolute;
+    left: -161px;
+    bottom: -30px;
+}
+
+.pos-abs1 {
+    position: absolute;
+    left: 0;
+    top: 12%;
+}
+
+.pos-abs2 {
+    position: absolute;
+    top: 5%;
+    right: -9%;
+}
+
+.pt-133 {
+    padding-top: 133px;
+}
+
+.pb-80 {
+    padding-top: 80px;
+}
+
+/* .card1 {
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: #5BA72B;
+} */
+.bcard {
+    background: linear-gradient(0deg, #5BA72B, #5BA72B),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 7px solid var(--bs-white);
+    border-radius: 19px;
+    padding: 75px 65px;
+}
+
+.tree2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.opacity-80 {
+    opacity: 80%;
+}
+
+.list1 {
+    list-style-type: lower-alpha;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.d_block {
+    display: block;
+}
